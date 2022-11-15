@@ -1,0 +1,22 @@
+@media screen and (min-width:480px) {
+    .etsy-logo-svg svg{
+        width: 80px;
+        height: 40px;
+    }
+    .burger-search-container {
+        margin-top: 4px;
+    }
+    .sign-in {
+        padding-top: 12px;
+        padding-right: 25px;
+    }
+    .favourite-svg {
+        /* padding-bottom: 11px; */
+        padding: 12px 14px 11px 11px ;
+
+    }
+    .cart-svg {
+        padding-bottom: 11px;
+        padding-top: 13px;
+    }
+}
