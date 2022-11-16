@@ -20,11 +20,18 @@ body ,ul ,li ,a {
     font-family: etsyL;
     src: url(/assets/font/Guardian-EgypTT-Light.woff2);
 }
-
+.hide-on-mobile {
+    display: none;
+}
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 .header-container {
     padding: 0 12px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin-bottom: 12px;
 }
 .etsy-logo-svg {
@@ -100,4 +107,67 @@ body ,ul ,li ,a {
 .search-svg {
     padding: 10px 22px 14px 15px;
     height: 20px;
+}
+/* section 1 */
+
+.sec-1 {
+    font-family: etsyL;
+    color: #222;
+    box-sizing: border-box;
+}
+.sec1-background {
+    background-color: #d7e6f5;
+    height: 75%;
+    width: 100vw;
+    position: absolute;    
+    z-index: -1;
+}
+.sec1-h1 {
+    background-color: #d7e6f5;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.35px;
+    text-align: center;
+    padding: 20px 12px 0px;
+    
+}
+.sec1-container {
+    position: sta;    
+}
+.sec1-content {
+    margin-bottom: 42px;
+    height: 100%;
+}
+.sec1-card-container {
+    padding: 6px 6px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    height: 100%;
+}
+.sec1-card {
+    width: 33.33%;
+    /* padding: 0 2.4%; */
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sec1-card-img {
+    margin: 12px 0px 6px;
+}
+.sec1-card-img img{ 
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    min-width: 85px;
+    height: 85px;
+    max-width: 96px;
+    border-radius: 1000px;
+}
+.sec1-card-text {
+    margin-bottom: 6px;
+    font-family: etsyM;
+    font-size: 13px;
+    text-align: center;
+    word-wrap: break-word;
 }

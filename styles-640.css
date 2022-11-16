@@ -1,0 +1,9 @@
+@media screen and (min-width:640px) {
+    .sec1-h1 {
+        font-size: 26px;
+        padding-top: 25px;
+    }
+    .sec1-card-container {
+        flex-wrap: nowrap;
+    }
+}
