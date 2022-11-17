@@ -3,7 +3,23 @@
         font-size: 26px;
         padding-top: 25px;
     }
-    .sec1-card-container {
+    .sec1-card-flex {
         flex-wrap: nowrap;
+        padding:10px 24px 0px ;
+        justify-content: space-between;
+    }
+    .sec1-card-img {
+        margin: 6px 0 7px 0;
+    }
+    .sec1-card-img img {
+        width: 84px;
+        height: 84px;
+    }
+    .sec1-card {
+        padding: 0;
+        width: 84px;
+    }
+    .sec1-background {
+        height: 51%;
     }
 }
