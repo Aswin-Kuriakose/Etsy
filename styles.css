@@ -193,31 +193,115 @@ header {
 }
 .sec2-h2 h2{
     font-size: 18px;
-    font-family: etsyR;
+    font-family: etsyM;
     line-height: 24px;
     text-align: center;
     color: #222;
-    font-weight: 600;
+    font-weight: 500;
 }
 .sec2-card-flex {
     display: flex;
     flex-flow: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    margin: 0 -6px;
 }
 .card {
-    flex-grow: 1;
     max-width: 50%;
-    flex-basis: 50%;
-    padding: 6px;
+    flex: 1 1 50%;
 }
 .sec2-card-content{
-    width: 50%;
+    padding: 6px;
+    margin: -6px 0 20px;
 }
 .sec2-card-img img{
-    width: 142px;
+    min-width: 142px;
+    width: 100%;
     border-radius: 6px;
 }
 .dfrow{
     display: flex;
     flex-flow: row;
+    align-items: center;
+}
+.sec2-card-text {
+    padding-top: 5px;
+}
+.sec2-card-title {
+    font-size: 13px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    max-height: 18px;
+    text-overflow: ellipsis;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    display :-webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.sec2-card-rating {
+    font-family: etsyR;
+    font-size: 13px;
+    color: #595959;
+    margin-bottom: 4px;
+    align-items: flex-start;
+}
+.rating-star {
+    padding-right: 4px;
+}
+.s2-discount {
+    color: #258635;
+    font-family: etsyR;
+    font-size: 13px;
+    padding-top: 3px;
+}
+.currency {
+    padding-right: 4px;
+}
+.s2-price {
+    padding-right: 4px;
+}
+.discount-price {
+    padding-right: 4px;
+    text-decoration: line-through;
+}
+.sec2-card-price {
+    flex-wrap: wrap;
+}
+/* SECTION 3 */
+.sec3-container {
+    padding: 0 6px;
+}
+.sec3-flex-container {
+    padding: 0 6px;
+}
+.sec3-card {
+    width: 50%;
+    flex: 1 1 50%;
+    border-radius: 12px;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    box-sizing: 0 4px 20px rgba(34 34 34 0.15);
+}
+.sec3-card-content {
+    padding: 0 6px;
+
+}
+.sec3-flex {
+    margin: 0 -6px;
+    /* width: 100%; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+.sec3-h2 {
+    padding-bottom: 18px;
+}
+.sec3-h2 h2 {
+    font-size: 18px;
+    font-family: etsyR;
+}
+
+.sec3-img-container img {
+    width: 140px;
+    border-radius: 12px 12px 0 0;
+
 }

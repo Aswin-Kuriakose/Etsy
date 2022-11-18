@@ -102,5 +102,24 @@
         height: 204px;
         margin-bottom: 42px;
     }
+    /* SECTION 2 */
+
+    .hide-on-900 {
+        display: none;
+    }
+    .card {
+        width: 20%;
+        flex: 1 1 20%;    
+    }
+    .sec-2 {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .sec2-container {
+        padding: 0 36px 90px;
+    }
+    .sec2-card-flex {
+        margin: 0 -9px ;
+    }
     
 }
