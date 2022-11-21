@@ -121,5 +121,21 @@
     .sec2-card-flex {
         margin: 0 -9px ;
     }
+    /* section 3 */
+
+    .section-padding {
+        padding: 0 18px;
+    }
+
+    .sec3-container {
+        padding: 0 18px;
+    }
+    .sec3-flex-container {
+        padding: 0 18px;
+    }
+    .sec3-card {
+        max-width: 20%;
+        flex: 1 1 ;
+    }
     
 }

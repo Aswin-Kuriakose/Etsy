@@ -23,6 +23,10 @@ body ,ul ,li ,a {
 .hide-on-mobile {
     display: none;
 }
+.max-width {
+    max-width: 1400px;
+    margin: 0 auto;
+}
 header {
     max-width: 1400px;
     margin: 0 auto;
@@ -322,7 +326,7 @@ header {
 }
 .third-card {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
     position: relative;
     flex-grow: 1;
     flex-basis: 33.3333%;
@@ -337,43 +341,96 @@ padding: 6px;
     flex-basis: 100%;
     text-align: center;
 }
+/* .third-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 12px;
+} */
 
 
 /* SECTION 3 */
 .sec3-container {
     padding: 0 6px;
+    box-sizing: border-box;
 }
 .sec3-flex-container {
     padding: 0 6px;
+    margin-bottom: 60px;
 }
 .sec3-card {
-    width: 50%;
-    flex: 1 1 50%;
+    max-width: 50%;
+    flex: 1 1 47%;
     border-radius: 12px;
-    border: 1px solid rgba(34, 34, 34, 0.15);
-    box-sizing: 0 4px 20px rgba(34 34 34 0.15);
+    /* padding: 0 6px; */
 }
 .sec3-card-content {
-    padding: 0 6px;
+    box-shadow:  0 4px 10px rgba(34 ,34 ,34 ,0.15);
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    border-radius: 12px;
 
 }
 .sec3-flex {
-    margin: 0 -6px;
+    gap: 12px;
     /* width: 100%; */
     display: flex;
-    flex-flow: row;
     flex-wrap: wrap;
 }
 .sec3-h2 {
-    padding-bottom: 18px;
+    padding-bottom: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.sec3-h2 .right-arrow {
+    width: 12px;
+    height: 24px;
+    margin-left: 10px;
 }
 .sec3-h2 h2 {
+    color: #222;
+    line-height: 24px;
     font-size: 18px;
-    font-family: etsyR;
+    font-family: etsyM;
+    font-weight: 500;
+    height: 100%;
 }
 
 .sec3-img-container img {
-    width: 140px;
+    /* width: 140px; */
     border-radius: 12px 12px 0 0;
+    width: 100%;
 
+}
+.sec3-text {
+    padding: 12px;
+    text-align: center;
+}
+.sec3-content {
+    display: flex;
+    flex-flow: column;
+    flex: 1 1 0%;
+    justify-content: center;
+    min-height: 60px;
+}
+.sec3-head-container {
+    display: flex;
+    flex-flow: column;
+    font-family: etsyR;
+    padding-bottom: 18px;
+    text-align: center;
+}
+.sec3-para {
+    color: #595959;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+/* section 4 */
+.section-padding {
+    padding: 0 6px;
 }

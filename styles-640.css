@@ -47,4 +47,38 @@
         font-size: 16px;
         -webkit-line-clamp: 2;
     }
+    /* section 3 */
+
+    .section-padding {
+        padding: 0 12px;
+    }
+
+    .sec3-container {
+        padding: 0 12px;
+    }
+    .sec3-flex-container {
+        padding: 0 12px;
+    }
+    .sec3-text {
+        font-size: 20px;
+        line-height: 28px;
+        height: 100%;
+    }
+    .sec3-content {
+        min-height: 78px;
+    }
+    .sec3-card {
+        max-width: 33.3333%;
+        flex: 1 1 31%;
+    }
+    .sec3-flex {
+        gap: 18px;
+    }
+    .sec3-card-content {
+        box-shadow: none;
+    }
+
+
+
+
 }
