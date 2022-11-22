@@ -79,6 +79,56 @@
     }
 
 
+    /* section 4 */
 
 
+    .card4-para {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .card4-para p {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: etsyR;
+    }
+    .sec4-cards {
+        gap: 18px;
+        flex-flow: row;
+    }
+    .sec4-card {
+        flex-flow: column;
+        width: 33.333%;
+    }
+    .img-container {
+        max-width: 100%;
+        height: fit-content;
+    }
+    .img-container img {
+        border-radius: 10px 10px 0 0;
+        height: auto;
+    }
+    .sec4-head-content {
+        justify-content: flex-start;
+    }
+    .sec4-h2 {
+        font-size: 28px;
+    }
+    .right-arrow img {
+        width: 14px;
+    }
+    .sec4-contents {
+        align-items: flex-start;
+
+    }
+    .sec4-content {
+        padding: 18px;
+    }
+    .card4-main-text p {
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
