@@ -695,13 +695,24 @@ padding: 6px;
     padding: 12px 18px;
     margin: 0 -18px 6px;
 }
+.footer-last-child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .flex-exception {
     display: flex;
     flex-flow: column;
-    justify-content: ;
+    align-items: flex-start;
 }
-
-
+.etsy-download-bttn {
+    display: flex;
+    align-items: center;
+}
+.etsy-social-container ul {
+    display: flex;
+    
+}
 .down-angle-svg img {
     width: 24px;
     height: 24px;  
