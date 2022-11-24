@@ -620,7 +620,7 @@ padding: 6px;
     max-width: 480px;
     margin: 0 auto;
     flex: 1;
-    box-shadow: 1px 2px 4px 0rgba(34, 34, 34, 0.1) inset;
+    box-shadow: 1px 2px 4px rgba(34, 34, 34, 0.1) inset;
     border: 1px solid rgba(34 ,34 ,34 ,0.15);
 }
 .email-input-bttn input {
@@ -638,11 +638,12 @@ padding: 6px;
 .email-input-bttn button {
     background-color: #fff;
     border: none;
-    padding: 12px 21px 12px 0;
+    padding: 14px 21px 14px 0;
     font-family: unset;
     font-size: 16px;
     color: #222;
-    border-radius: 100px;
+    box-shadow: -2px 2px 4px rgba(34, 34, 34, 0.1) inset;
+    border-radius: 0 100px 100px 0;
 }
 .footer-sec2-content {
     background-color: #4D6BC6;
@@ -707,6 +708,9 @@ padding: 6px;
     display: flex;
     justify-content: space-between;
 }
+.footer-last-child .down-angle-svg img {
+    transform: rotate(180deg);
+}
 .flex-exception {
     display: flex;
     flex-flow: column;
@@ -718,7 +722,8 @@ padding: 6px;
 }
 .etsy-social-container ul {
     display: flex;
-    
+    justify-content: center;
+    margin-left: -6px;
 }
 .down-angle-svg img {
     width: 24px;
@@ -727,6 +732,9 @@ padding: 6px;
 .footer-logo-svg svg {
     width: 24px;
     height: 24px;
+}
+.footer-logo-svg {
+    display: flex;align-items: center;
 }
 .social-media svg {
     width: 36px;
@@ -744,15 +752,100 @@ padding: 6px;
     margin-top: 12px;
 }
 .etsy-download-bttn {
+    width: 175px;
     margin-top: 24px;
-    padding: 2px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px 13px;
     border-radius: 24px;
     border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    font-family: etsyR;
 }
 .footer-logo-text {
     font-size: 13px;
-    
+    margin-left: 6px;
+    font-weight: 700;
+    font-family: etsyR;
 }
 .f-nav-etsy-social {
+    margin-top: 12px;
+    width: 100%;
+}
+.etsy-social-container {
     margin-top: 18px;
 }
+.social-media {
+    margin-right: 12px;
+}
+.social-media div {
+    padding: 8px;
+    margin-left: -12px;
+}
+.social-media:last-child {
+    margin-right: -12px;
+}
+.insta {
+    margin-left: px;
+}
+ 
+.footer-credit {
+    background-color: #232347;
+}
+.footer-credit-wrapping {
+    padding: 18px 24px;
+}
+.footer-credit-first {
+    padding-bottom: 12px;
+}
+.footer-credit-first-wrapper {
+    padding: 9px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-globe {
+    display: flex;
+    align-items: center;
+}
+.footer-globe svg {
+    fill: #fff;
+    width: 18px;
+    height: 18px;
+}
+.credit-text {
+    font-size: 13px;
+    color: #fff;
+}
+.footer-credit-last {
+    color: #fff;
+    font-family: etsyR;
+    font-size: 13px;
+    font-weight: 300;
+    
+}
+.footer-credit-last-flex{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+.footer-last-credit {
+    margin-bottom: 12px;
+}
+.footer-last-list {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.footer-list {
+    text-decoration: underline;
+    font-family: etsyR;
+    margin: 1px 12px 0 1px;
+
+}
+

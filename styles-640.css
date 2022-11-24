@@ -1,4 +1,7 @@
 @media screen and (min-width:640px) {
+    .hide-on-640 {
+        display: none;
+    }
     .sec1-h1 {
         font-size: 26px;
         padding-top: 25px;
@@ -131,4 +134,74 @@
         font-size: 20px;
         line-height: 28px;
     }
+
+
+
+
+
+
+    .footer-nav-container {
+        padding: 36px 24px 24px;
+    }
+
+    .f-nav-content {
+        display: block;
+    }
+    .footer-nav-child  {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-grow: 1;
+        flex-basis: 25%;
+        width: 25%;
+    }
+    .footer-nav-flex {
+        display: flex;
+        flex-flow: row;
+
+    }
+    .f-nav-title {
+        margin:0 0 12px 0;
+        padding: 0 6px 0 0;
+    }
+    .f-nav-content ul {
+        padding: 0;
+    }
+    .etsy-download-bttn {
+        width: 100%;
+    }
+    .f-nav-social-wrapper {
+        width: 100%;
+    }
+
+
+    .footer-sec2-content {
+        flex-flow: row;
+        height: 38px;
+        align-items: center;
+    }
+    .footer-sec2-svg {
+        margin-bottom: 0;
+    }
+    .footer-sec2-text {
+        margin-right: 0;
+    }
+    .footer-credit-last-flex {
+        flex-flow: row;
+        align-items: center;
+    }
+    .footer-last-credit {
+        margin: 0 12px 0 0;
+    }
+    .footer-last-list {
+        margin-left: 12px;
+    }
+    .etsy-social-container ul {
+        width: 100%;
+        flex-wrap: wrap !important;
+        justify-content: flex-start;
+    }
+
+    
 }
