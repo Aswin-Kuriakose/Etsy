@@ -102,6 +102,7 @@
     .sec4-cards {
         gap: 18px;
         flex-flow: row;
+        /* display: flex; */
     }
     .sec4-card {
         flex-flow: column;
@@ -110,6 +111,7 @@
     .img-container {
         max-width: 100%;
         height: fit-content;
+        flex: 0;
     }
     .img-container img {
         border-radius: 10px 10px 0 0;
@@ -136,7 +138,22 @@
         line-height: 28px;
     }
 
-
+    .sec5-container {
+        padding: 36px 60px;
+    }
+    .sec5-head-content h2 {
+        font-size: 44px;
+        margin-bottom: 6px;
+        line-height: 48px;
+    }
+    .sec5-content-title h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .sec5-h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
 
 
 
@@ -165,12 +182,17 @@
     .f-nav-title {
         margin:0 0 12px 0;
         padding: 0 6px 0 0;
+        box-sizing: border-box;
+    }
+    .f-nav-text {
+        padding: 6px 0;
     }
     .f-nav-content ul {
         padding: 0;
-    }
+        padding-right: 6px;    }
     .etsy-download-bttn {
-        width: 100%;
+        width: 80%;
+
     }
     .f-nav-social-wrapper {
         width: 100%;
@@ -259,7 +281,6 @@
     .third-card {
         flex-grow: 1;
         position: relative;
-        height: 100%;
         width: 100% ;
         box-sizing: border-boxgit ;
     }

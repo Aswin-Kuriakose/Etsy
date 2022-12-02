@@ -143,5 +143,32 @@
     .sec4-flex-container {
         margin-bottom: 90px;
     }
-    
+
+
+    .sec5-container {
+        padding: 36px 54px;
+        box-sizing: border-box;
+    }
+    .sec5-main-content {
+        margin-bottom: 42px;
+        display: flex;
+        flex-flow: row;
+    }
+    .sec5-content {
+        flex: 1 1 0%;
+        text-align: left;
+        margin-bottom: 0px;
+    }    
+    .sec5-content:nth-child(2) {
+        margin: 0 36px;
+    }
+    .footer-credit-flex {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-credit-first {
+        padding-bottom: 0;
+    }
 }
