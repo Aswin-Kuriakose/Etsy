@@ -227,7 +227,8 @@
         align-items: center;
         justify-content: space-between;
     }
-    .footer-credit-first {
-        padding-bottom: 0;
+    .social-media div {
+        padding: 10px 8px 2px 8px ;
     }
+   
 }

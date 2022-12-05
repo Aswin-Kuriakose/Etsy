@@ -186,13 +186,23 @@
     }
     .f-nav-text {
         padding: 6px 0;
+        font-size: 13px;
     }
     .f-nav-content ul {
         padding: 0;
-        padding-right: 6px;    }
+        padding-right: 6px;    
+        line-height: 18px;
+    }
     .etsy-download-bttn {
-        width: 80%;
-
+        width: calc(100% - 30px);
+        max-width: 175px;
+        margin: 24px 0 -3px;
+    }
+    .bttn-wrapper {
+        width: 100%;
+    }
+    .footer-logo-text {
+        line-height: 18px;
     }
     .f-nav-social-wrapper {
         width: 100%;
@@ -215,7 +225,7 @@
         align-items: center;
     }
     .footer-last-credit {
-        margin: 0 12px 0 0;
+        margin: 0 12px 3px 0;
     }
     .footer-last-list {
         margin-left: 12px;
@@ -224,10 +234,31 @@
         width: 100%;
         flex-wrap: wrap !important;
         justify-content: flex-start;
+        margin-left: -2px;
     }
-
+    .social-media {
+        margin-right: 11px;
+    }
+    .social-media div {
+        padding: 6px 8px 6px 8px ;
+    }
     .sec-four-h3 {
         font-size: 20px;
+    }
+    .insta {
+        padding: 10px 8px 2px 8px !important;     
+    }
+    .fb {
+        padding: 10px 8px 2px 8px !important;
+    }
+    .footer-credit-first-wrapper {
+        align-items: flex-start;
+    }
+    .footer-globe {
+        margin-top: -1px;
+    }
+    .footer-list {
+        margin-right: 18px;
     }
 
     /* .third-section */
